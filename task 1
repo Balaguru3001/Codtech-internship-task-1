@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Tech Solutions</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        header img.logo {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        header img.banner {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        /* Navigation Styles */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Main Content Styles */
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        main h2 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        main p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 20px 0;
+        }
+
+        section:not(:last-of-type) {
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Contact Information Styles */
+        .contact-info {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Professional Tech Solutions Logo" class="logo">
+        <img src="computer.jpg" alt="Professional Tech Solutions Banner" class="banner">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Professional Tech Solutions</h2>
+            <p>
+                We provide top-notch technology solutions for your business needs. Our team of experts is dedicated 
+                to delivering innovative and reliable services that empower your business to thrive in the digital age.
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>
+                Explore our range of services, including web development, IT consulting, and custom software solutions 
+                tailored to your business requirements. We ensure that our solutions are scalable, secure, and aligned with 
+                the latest industry standards.
+            </p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                With over a decade of experience in the tech industry, we have built a reputation for delivering 
+                high-quality services that drive success for our clients. Our team is composed of seasoned professionals 
+                who are passionate about technology and innovation.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p class="contact-info">
+                Email: contact@techsolutions.com<br>
+                Phone: +123-456-7890<br>
+                Address: 123 Tech Street, Innovation City, USA
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Professional Tech Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
